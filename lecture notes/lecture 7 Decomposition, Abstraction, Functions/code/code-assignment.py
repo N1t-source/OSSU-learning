@@ -142,24 +142,24 @@ def first_to_last_diff(s, c):
 # print(div_by(195,13))    
 
 
-# def is_palindrome(s):
-#     """ s is a string
-#     Returns True if s is a palindrome and False otherwise
-#     """
-#     # your code here
-#     for i in range(len(s)//2):
-#         if s[i] != s[len(s)-i-1]:
-#             return False
-#     return True        
+def is_palindrome(s):
+    """ s is a string
+    Returns True if s is a palindrome and False otherwise
+    """
+    # your code here
+    for i in range(len(s)//2):
+        if s[i] != s[len(s)-i-1]:
+            return False
+    return True        
 
-# s="2222"
-# print(is_palindrome(s))
+s="2222"
+print(is_palindrome(s))
 
-# s="222"
-# print(is_palindrome(s))
+s="222"
+print(is_palindrome(s))
 
-# s="abc"
-# print(is_palindrome(s))
+s="abc"
+print(is_palindrome(s))
 
 
 ################################################
